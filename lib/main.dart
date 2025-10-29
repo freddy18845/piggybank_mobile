@@ -43,7 +43,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   Timer? _idleTimer;
 
   /// ⏱️ Idle timeout duration
-  final Duration idleTimeout = const Duration(seconds: 20);
+  final Duration idleTimeout = const Duration(minutes: 20);
 
   @override
   void initState() {
